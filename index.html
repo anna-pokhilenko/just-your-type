@@ -4,7 +4,10 @@
   <meta charset="utf-8">
   <title>My Type</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="css/modules.css" rel="stylesheet">
+  <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
@@ -15,10 +18,9 @@
 <body>
 <div class="grid">
 
-  <div class="unit l-1-2 relative">
+  <div class="unit xs-1 s-1 m-1 l-1-2 relative">
 
-
-    <div class="e absolute zetta push">
+    <div class="e absolute zetta push bold">
       <p>E</p>
     </div>
 
@@ -36,16 +38,18 @@
 
   </div>
 
-  <div class="unit l-1-2 realtive">
+  <div class="unit xs-1 s-1 m-1 l-1-2 realtive">
 
     <div class="first absolute">
       <p>moment that comes your way.</p>
     </div>
 
-    <div class="second absolute">
-      <p>the fire will most likely burn out eventually.</p>
+
+
+    <div class="tooltip circle absolute animated infinite pulse">
+
+      <span class="tooltiptext milli">the fire will most likely burn out eventually</span>
     </div>
-  </div>
 
 </div>
 </body>
