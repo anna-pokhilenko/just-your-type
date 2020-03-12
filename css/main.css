@@ -1,5 +1,4 @@
 
-
 body {
   background-color: #f28729;
 }
@@ -57,10 +56,10 @@ body {
 .circle {
   top: 25rem;
   left: 46rem;
-   width: 50px;
-   height: 50px;
-   border-radius: 50%;
-   background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
 }
 
 .tooltip {
@@ -69,9 +68,7 @@ body {
   border-bottom: 1px dotted #a62d85; /* If you want dots under the hoverable text */
 }
 
-/* Tooltip text */
 .tooltip .tooltiptext {
-
   visibility: hidden;
   left: -6rem;
   font-family: "Merriweather Sans", sans-serif;
