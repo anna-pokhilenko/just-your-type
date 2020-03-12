@@ -1,0 +1,43 @@
+
+
+body {
+  background-color: #F28729;
+;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.every {
+  left: 4em;
+  top: 5em;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #F28729;
+}
+
+.each {
+  top: 32.7rem;
+  left: 18rem;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #F28729;
+}
+
+.enjoy {
+  top: 3.3rem;
+  left: 5em;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #F28729;
+}
+
+.e {
+  font-family: 'Acme', sans-serif;
+  font-weight: bold;
+  top: -7rem;
+  left: 4rem;
+  color: white;
+}
