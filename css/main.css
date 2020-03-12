@@ -1,8 +1,7 @@
 
 
 body {
-  background-color: #F28729;
-;
+  background-color: #f28729;
 }
 
 .relative {
@@ -16,26 +15,26 @@ body {
 .every {
   left: 4em;
   top: 5em;
-  font-family: 'Merriweather Sans', sans-serif;
-  color: #F28729;
+  font-family: "Merriweather Sans", sans-serif;
+  color: #f28729;
 }
 
 .each {
   top: 32.7rem;
   left: 18rem;
-  font-family: 'Merriweather Sans', sans-serif;
-  color: #F28729;
+  font-family: "Merriweather Sans", sans-serif;
+  color: #f28729;
 }
 
 .enjoy {
   top: 3.3rem;
   left: 5em;
-  font-family: 'Merriweather Sans', sans-serif;
-  color: #F28729;
+  font-family: "Merriweather Sans", sans-serif;
+  color: #f28729;
 }
 
 .e {
-  font-family: 'Acme', sans-serif;
+  font-family: Acme, sans-serif;
   top: -7rem;
   left: 4rem;
   color: white;
@@ -44,30 +43,30 @@ body {
 .first {
   top: 20rem;
   left: 40rem;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   color: white;
 }
 
 .second {
   top: 45rem;
   left: 40rem;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   color: white;
 }
 
-.circle{
+.circle {
   top: 25rem;
   left: 46rem;
    width: 50px;
    height: 50px;
    border-radius: 50%;
-   background-color: white
+   background-color: white;
 }
 
 .tooltip {
   position: absolute;
   display: inline-block;
-  border-bottom: 1px dotted #A62D85; /* If you want dots under the hoverable text */
+  border-bottom: 1px dotted #a62d85; /* If you want dots under the hoverable text */
 }
 
 /* Tooltip text */
@@ -75,11 +74,10 @@ body {
 
   visibility: hidden;
   left: -6rem;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   color: white;
   width: 300px;
   background-color: #591404;
-  color: #fff;
   text-align: center;
   padding: 20px 0;
   border-radius: 6px;
