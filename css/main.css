@@ -94,5 +94,5 @@ body {
 }
 
 .tooltip:hover .circle {
-  visibility: none;
+  visibility: hidden;
 }
