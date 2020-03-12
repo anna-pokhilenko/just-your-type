@@ -11,7 +11,7 @@ body {
   position: absolute;
 }
 
-.every {
+.enjoy {
   left: 4em;
   top: 5em;
   font-family: "Merriweather Sans", sans-serif;
@@ -19,14 +19,14 @@ body {
 }
 
 .each {
-  top: 32.7rem;
-  left: 18rem;
+  top: 32.5rem;
+  left: 18.6rem;
   font-family: "Merriweather Sans", sans-serif;
   color: #f28729;
 }
 
-.enjoy {
-  top: 3.3rem;
+.every {
+  top: 3rem;
   left: 5em;
   font-family: "Merriweather Sans", sans-serif;
   color: #f28729;
@@ -65,29 +65,24 @@ body {
 .tooltip {
   position: absolute;
   display: inline-block;
-  border-bottom: 1px dotted #a62d85; /* If you want dots under the hoverable text */
+  border-bottom: 1px dotted #a62d85;
 }
 
 .tooltip .tooltiptext {
   visibility: hidden;
   left: -6rem;
   font-family: "Merriweather Sans", sans-serif;
-  color: white;
+  color: #591404;
   width: 300px;
-  background-color: #591404;
+  background-color: white;
   text-align: center;
   padding: 20px 0;
   border-radius: 6px;
 
-  /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
 }
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
-}
-
-.tooltip:hover .circle {
-  visibility: hidden;
 }
